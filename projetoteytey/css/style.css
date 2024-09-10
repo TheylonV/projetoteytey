@@ -9,7 +9,6 @@ body {
     font-family:'Poppins', sans-serif;
     font-weight: 300;
     font-size: 25px;
-    
 
 }
 
@@ -19,7 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(19, 131, 19, 0.952);
-    
+    margin: 0px;
 }
 
 a {
@@ -30,6 +29,7 @@ a {
 
 .but {
     background-color: #e7e7e7;
+    cursor: pointer;
 }
 
 button {
@@ -40,7 +40,6 @@ button {
     border: none;
     font-family:'Poppins', sans-serif;
 
-    
 }
 
 h2 {
@@ -52,12 +51,13 @@ h2 {
 
 }
 
-h3 {
+.link{
+        
+        color: rgb(255, 255, 255);
         text-align:center;
         font-family: 'Poppins', sans-serif;
         font-weight: 100;
-        font-size: 18px;
-        color: black;
+        
 }
 
 img {
@@ -79,4 +79,47 @@ footer {
 
 .Volte {
     color: #e7e7e7;
+}
+
+.tex {
+    color: black;
+}
+
+.logg{
+
+    color: black;
+    font-family:'Poppins', sans-serif;   
+    text-align: center;
+    padding: 1%;
+    margin-top: 5%;
+    font-size:x-large
+    
+}
+
+.di{
+    margin: 5px;
+}
+
+.emails{
+    
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    margin-left: 30%;
+    margin-top: 0%;
+    width: 30%;
+
+}
+
+.pass{
+    
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 1%;
+    width: 30%;
+}
+
+.botao{
+    margin-left: 47%;
+    margin-top: 2%;
 }

@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 239, 239);
+    text-decoration:none;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+
+header {
+    padding: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(19, 131, 19, 0.952);
+    margin: 0px;
+}
+
+a {
+    
+    color: rgb(0, 140, 255);
+    
+}
+
+.but {
+    background-color: #e7e7e7;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+}
+
+button {
+    border-radius: 30px;
+    background-color: #e7e7e7;
+    font-size: 15px;
+    padding: 18px 35px;
+    border: none;
+    font-family:'Poppins', sans-serif;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+}
+
+h2 {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: black;
+
+}
+
+.link{
+        
+        text-decoration:none;
+        color: rgb(255, 255, 255);
+        text-align:center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+        
+}
+
+img {
+        height: 330px;
+        width: 25%;
+        border-radius: 8px;
+
+}
+
+footer {
+
+    padding: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(19, 131, 19, 0.952);
+
+}
+
+.Volte {
+    color: #e7e7e7;
+
+}
+
+.tex {
+    color: black;
+}
+
+.logg{
+
+    color: green;
+    font-family:'Poppins', sans-serif;   
+    text-align: center;
+    padding: 1%;
+    margin-top: 8%;
+    font-size:x-large
+    
+}
+
+.di{
+    margin: 5px;
+}
+
+.emails{
+    
+    margin-left: 42%;
+    margin-top: 2%;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    
+}
+
+.pass{
+    
+    margin-left: 42%;
+    margin-top: 1%;
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    
+}
+
+.botao{
+    margin-left: 47%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+.ada{
+    
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.text{
+     
+    color: black;
+}
+
+.rod{
+    margin-top: 21%;
+}
+
+.pagp{
+    color: black;
+}
+
+.text{
+    font-family:'Poppins', sans-serif; 
+    color: green;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+
+}
+
+.name {
+
+    margin-left: 40%;
+    margin-top: 4%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.emai{
+    margin-left: 40%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    
+}
+
+.tel{
+    margin-left: 40%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.buton{
+    margin-left: 45%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    cursor: pointer;
+}
+.cont{
+    color: black;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 42px;
+}
+span{
+    align-items: center;
+
+}
+.n{
+    margin-left: 30%;
+    margin-top: 1%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    align-items: center;
+
+}
+.sobre{
+    margin-left: 5%;
+    margin-top: 0%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    align-items: center;
+    
+}
+
+.tit{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 4%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.tt{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.ger{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.not{
+    color: black;
+    margin-left: 38%;
+    margin-top: 2%;
+    font-size: 42px;
+}

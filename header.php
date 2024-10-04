@@ -8,7 +8,7 @@
 </head>
 <header>
         <div>
-            <a class="link" href="https://localhost/projetoteytey/?pagina=principal"><h3>Campingbr</h3></a>
+            <a class="link" href="http://localhost/projetoteytey/?pagina=principal"><h3>Campingbr</h3></a>
         </div>
         <nav>
             <a href="http://localhost/projetoteytey/?pagina=login"><button class="but" type="button">Login</button></a> 

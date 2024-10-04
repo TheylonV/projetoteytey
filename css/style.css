@@ -106,7 +106,8 @@ footer {
 
 .emails{
     
-    margin-left: 42%;
+    text-align: center;
+    margin-left: 38%;
     margin-top: 2%;
     border-radius: 4px;
     width: 300px;
@@ -117,8 +118,9 @@ footer {
 }
 
 .pass{
-    
-    margin-left: 42%;
+
+    text-align: center;
+    margin-left: 38%;
     margin-top: 1%;
     border-radius: 4px;
     width: 300px;
@@ -128,7 +130,8 @@ footer {
 }
 
 .botao{
-    margin-left: 47%;
+
+    margin-left: 45%;
     margin-top: 2%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     cursor: pointer;
@@ -142,6 +145,7 @@ footer {
 .text{
      
     color: black;
+    margin-left: 0%;
 }
 
 .rod{
@@ -162,8 +166,8 @@ footer {
 }
 
 .name {
-
-    margin-left: 40%;
+    text-align: center;
+    margin-left: 38%;
     margin-top: 4%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -173,7 +177,8 @@ footer {
 }
 
 .emai{
-    margin-left: 40%;
+    text-align: center;
+    margin-left: 38%;
     margin-top: 2%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -184,7 +189,8 @@ footer {
 }
 
 .tel{
-    margin-left: 40%;
+    text-align: center;
+    margin-left: 38%;
     margin-top: 2%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -210,6 +216,7 @@ span{
 
 }
 .n{
+    text-align: center;
     margin-left: 30%;
     margin-top: 1%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
@@ -221,7 +228,8 @@ span{
 
 }
 .sobre{
-    margin-left: 5%;
+    text-align: center;
+    margin-left: 3%;
     margin-top: 0%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -234,7 +242,7 @@ span{
 
 .tit{
     text-align: center;
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top: 4%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -245,7 +253,7 @@ span{
 
 .tt{
     text-align: center;
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top: 2%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -256,7 +264,7 @@ span{
 
 .ger{
     text-align: center;
-    margin-left: 40%;
+    margin-left: 38%;
     margin-top: 2%;
     box-shadow: 2px 2px 2px rgb(196, 196, 196);
     border-radius: 4px;
@@ -267,7 +275,39 @@ span{
 
 .not{
     color: black;
-    margin-left: 38%;
+    margin-left: 34%;
     margin-top: 2%;
     font-size: 42px;
+}
+
+.emaill {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.telefone {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 3%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.area{
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 23%;
+    padding: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    font-size: 17px;
 }

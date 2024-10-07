@@ -1,3 +1,4 @@
+<form method="post" action="#"> 
     <h1 class="cont" >Contate-nos</h1>
 <span>
     <input class= "n" type="text" id="nome" name="nome" placeholder="Nome">
@@ -13,9 +14,11 @@
 </span>
 <span>
     <textarea class="area"
-    id="tarea"
-    name="tarea"
+    id="area"
+    name="mensagem"
     rows="5"
     placeholder="Digite aqui a sua mensagem"></textarea>
 </span>
-<button class="buton" type="submit">Enviar</button></form>   
+<!-- <button class="buton" type="submit">Enviar</button></form>    -->
+ <button class="buton" type="submit">Enviar</button>
+ </form>

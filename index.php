@@ -27,6 +27,7 @@ $login = ($_SERVER["REQUEST_METHOD"] == "POST"
 $senha = ($_SERVER["REQUEST_METHOD"] == "POST"
 && !empty($_POST['senha'])) ? $_POST['senha'] : null;
 
+
 $resposta = 0;
  
  

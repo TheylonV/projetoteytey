@@ -1,3 +1,16 @@
+<?php 
+$listaNoticia = criarLista();
+foreach($listaNoticia as $noticia):
+?>
+<a class="pag-link" href="boxe.html">
+<div class="categoryCard">
+<img src="<?=$noticia['imagem']?>" alt="mainCardImg" class="mainCardImg" width=320px height=180px>
+<p class="mainCategoryCardTitle"><?=$noticia['titulo']?></p>
+<p class="mainCategoryCardDescription"><?= reduzirStr($noticia['descricao'],180)?></p>
+</div>
+</a>
+<?php endforeach?>
+
 <div class="di">
     <div>
         <br>

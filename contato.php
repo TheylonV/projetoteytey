@@ -10,7 +10,7 @@
 <input class="emaill" type="text" id="email" name="email" placeholder="Email">
 </span>
 <span>
-<input class="telefone" type="text" id="telefone" name="telefone" placeholder="Telefone">
+<input class="telefone" type="password" id="telefone" name="telefone" placeholder="Telefone">
 </span>
 <span>
     <textarea class="area"

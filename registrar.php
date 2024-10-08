@@ -18,6 +18,6 @@
 </div>
 <div>
 <label for="senha"></label>
-<input class="tel" type="text" id="senha" name="senha" placeholder="Senha">
+<input class="tel" type="password" id="senha" name="senha" placeholder="Senha">
 </div>
 <button class="buton" type="submit">Enviar</button></form>

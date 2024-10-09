@@ -27,6 +27,19 @@ $login = ($_SERVER["REQUEST_METHOD"] == "POST"
 $senha = ($_SERVER["REQUEST_METHOD"] == "POST"
 && !empty($_POST['senha'])) ? $_POST['senha'] : null;
 
+$titulo = ($_SERVER["REQUEST_METHOD"] == "POST"
+&& !empty($_POST['titulo'])) ? $_POST['titulo'] : null;
+
+$descricao = ($_SERVER["REQUEST_METHOD"] == "POST"
+&& !empty($_POST['descricao'])) ? $_POST['descricao'] : null;
+
+$descricaoCurta = ($_SERVER["REQUEST_METHOD"] == "POST"
+&& !empty($_POST['descricaoCurta'])) ? $_POST['descricaoCurta'] : null;
+
+$img = ($_SERVER["REQUEST_METHOD"] == "POST"
+&& !empty($_POST['imagem'])) ? $_POST['imagem'] : null;
+
+
 
 $resposta = 0;
  
@@ -56,6 +69,8 @@ if($paginaUrl === "principal"){
   cadastrarRegistro($nome, $email, $telefone,$login,$senha);
 }elseif($paginaUrl === "contato"){
   cadastrarContato($nome,$sobrenome,$email,$telefone,$mensagem);
+}elseif($paginaUrl === "noticia"){
+  cadastrarNoticia($titulo,$descricao,$descricaoCurta,$img);
 }
 
 include_once("header.php");

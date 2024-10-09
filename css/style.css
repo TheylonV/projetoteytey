@@ -262,6 +262,17 @@ span{
     font-size: 17px;
 }
 
+.tte {
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px rgb(196, 196, 196);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px; 
+}
+
 .ger{
     text-align: center;
     margin-left: 38%;

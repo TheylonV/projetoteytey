@@ -215,3 +215,38 @@ function reduzirStr($str,$quantidade){
         $result = $stmt->execute();
         return ($result)?true:false;
     }  
+
+    function cadastrarNoticia($titulo,$descricao,$descricaoCurta,$img)
+    { //var_dump($titulo,$descricao,$descricaoCurta,$img);die;
+        if (!$titulo || !$descricao || !$descricaoCurta || !$img){return;}
+        $sql = "INSERT INTO `noticia` (`titulo`,`descricao`,`descricaoCurta`,`img`)
+        VALUES(:titulo,:descricao,:descricaoCurta,:img)";
+        $pdo = Database::conexao();
+        $stmt = $pdo->prepare($sql);
+        $stmt->bindParam(':titulo', $titulo);
+        $stmt->bindParam(':descricao', $descricao);
+        $stmt->bindParam(':descricaoCurta', $descricaoCurta);
+        $stmt->bindParam(':img', $img);
+        $result = $stmt->execute();
+        return ($result)?true:false;
+    }
+
+//     function buscarNoticia($id)
+// {
+//     $pdo = Database::conexao();
+//     $sql = "SELECT * FROM noticia WHERE id = $id";
+//     $stmt = $pdo->prepare($sql);
+//     $list = $stmt->execute();
+//     $list = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//     return $list[0];
+// }
+
+//     function listarNoticias()
+// {
+//     $pdo = Database::conexao();
+//     $sql = "SELECT * FROM noticia";
+//     $stmt = $pdo->prepare($sql);
+//     $list = $stmt->execute();
+//     $list = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//     return $list;
+// }
